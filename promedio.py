@@ -8,4 +8,4 @@ while grado != -1:
     print ("Introduzca la nota de un estudiante (-1 para salir): ")
     grado = int(input())
 promedio = total / contar
-print ("Promedio de notas del grado escolar es: " + str(promedio))
+print ("Promedio de notas del grado escolar es: " + str(promedio))// salida
