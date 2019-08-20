@@ -1,6 +1,6 @@
 promedio, total, contar = 0.0, 0, 0
 
-print ("Introduzca la nota de un estudiante (-1 para salir): ")
+print ("Introduzca la nota de un estudiante (-1 para salir): ")// datos de entrada
 grado = int(input())	
 while grado != -1:
     total = total + grado
