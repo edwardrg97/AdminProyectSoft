@@ -5,7 +5,7 @@ print ("En este programa podra calcular el promedio de un alumno, acontinuación
 print ("Introduzca la calificacion del alumno (-1 para salir): ") #Solicita datos de entrada al usuario
 grado = int(input())	
 while grado != -1:    #Inicia un ciclo para recopilar las calificaciones, se repetirá hasta recibir un -1
-    total = total + grado
+    total = total + grado #total mas el grado genera el total que sera usado en el promedio
     contar = contar + 1 #varible contador para mover while, tambien sera usada para calcular el promedio final
     print ("Introduzca la calificacion del alumno (-1 para salir): ") # texto repetitivo para pedir varias calificaciones
     grado = int(input())
