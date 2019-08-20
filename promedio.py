@@ -1,11 +1,13 @@
-promedio, total, contar = 0.0, 0, 0
+#Programa que calcula el promedio de calificaciones de alumnos de un grado escolar 
 
-print ("Introduzca la nota de un estudiante (-1 para salir): ")// datos de entrada
+promedio, total, contar = 0.0, 0, 0    #Creación e inicialización de variables en 0
+
+print ("Introduzca la calificacion del alumno (-1 para salir): ") #Solicita datos de entrada al usuario
 grado = int(input())	
-while grado != -1:
+while grado != -1:    #Inicia un ciclo para recopilar las calificaciones, se repetirá hasta recibir un -1
     total = total + grado
     contar = contar + 1
-    print ("Introduzca la nota de un estudiante (-1 para salir): ")
+    print ("Introduzca la calificacion del alumno (-1 para salir): ")
     grado = int(input())
 promedio = total / contar
-print ("Promedio de notas del grado escolar es: " + str(promedio))// salida
+print ("Promedio de calificaciones del grado escolar es: " + str(promedio)) #Imprime el resultado
